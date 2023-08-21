@@ -90,6 +90,7 @@ const App = () => {
       >
         <First setSlide={setSlide} />
         <Second currentSlide={currentSlide} />
+        <Third />
       </div>
       <img src={logo} className="container__logo" alt="logo" />
       <button className="container__btn-home" onClick={setSlide(0)}>

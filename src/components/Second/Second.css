@@ -1,3 +1,9 @@
+@font-face {
+  font-weight: bold;
+  font-family: "DINPro";
+  src: url('../../fonts/DINPro.woff') format('woff');
+}
+
 .next-slide {
   position: relative;
 
@@ -27,18 +33,17 @@
   position: relative;
 
   width: 700px;
-  height: 380px;
+  height: 350px;
   
-  margin-top: 55px;
-  margin-left: 0;
-  padding: 0px 80px 30px 70px;
+  margin-top: 95px;
+  margin-left: 30px;
+  padding: 0px 120px 30px 70px;
 
   overflow-x: hidden;
-
-  direction: rtl;
+  /* direction: rtl; */
 }
 
-.next-slide__text-box p {
+p {
   font: 20px/1.5 "DINPro", sans-serif;
 }
 
