@@ -1,0 +1,37 @@
+* {	
+	margin:0;
+}
+
+html {
+  font-family: sans-serif;
+  color: black;
+}
+
+.container {
+  position: relative;
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+}
+
+.container__slide {
+  display: flex;
+  width: 3072px;
+  background-image: url("../images/bg@2x.jpg");
+
+  transition: 1s;
+}
+
+.container__logo {
+  position: absolute;
+  bottom: 15px;
+  left: 70px;
+}
+
+.container__btn-home {
+  position: absolute;
+  background: none;
+  border: none;
+  top: 25px;
+  left: 65px;
+}

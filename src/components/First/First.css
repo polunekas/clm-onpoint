@@ -1,0 +1,155 @@
+.slide {
+  position: relative;
+
+  width: 1024px;
+  height: 768px;
+
+  display: flex;
+  flex-shrink: 0;
+}
+
+.slide__content {
+  position: relative;
+  
+  text-align: left;
+  padding: 155px 50px 0px 70px;
+}
+
+.title {
+  font: 26px "DINPro", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  
+  margin-bottom: 40px;
+}
+
+h1 {
+  margin-top: 0;
+
+  font: lighter 100px/1.2 "Gilroy", sans-serif;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.btn-next {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 110px;
+  bottom: 200px;
+}
+
+.bakt-1 {
+  position: absolute;
+  bottom: 185px;
+  left: 25px;
+
+  -webkit-animation: 'bakt1' 5s infinite alternate linear;
+
+  z-index: -1;
+}
+
+@-webkit-keyframes bakt2 {
+  from {
+    -webkit-transform: scale(0.9) rotate(0deg) translate(0, 0);
+  }
+  25% {
+    -webkit-transform: scale(1.0) rotate(90deg) translate(-70%, 120%);
+  }
+  50% {
+    -webkit-transform: scale(1.1) rotate(180deg) translate(80%, 0%);
+  }
+  75% {
+    -webkit-transform: scale(1.2) rotate(270deg) translate(70%, 20%);
+  }
+  to {
+    -webkit-transform: scale(0.9) rotate(360deg) translate(0, 0);
+  }
+}
+
+.bakt-2 {
+  position: absolute;
+  top: 210px;
+  right: 60px;
+
+  -webkit-animation: 'bakt2' 40s infinite normal linear;
+
+  z-index: 2;
+}
+
+.bakt-3 {
+  position: absolute;
+  top: 80px;
+  left: -45px;
+}
+
+@-webkit-keyframes bakt4 {
+  from {
+    -webkit-transform: translate(50%, 70%);
+  }
+  to {
+    -webkit-transform: translate(-25%, -15%);
+  }
+}
+
+.bakt-4 {
+  position: absolute;
+  top: 70px;
+  right: 250px;
+
+  -webkit-animation: 'bakt4' 5s infinite alternate linear;
+}
+
+.bakt-5 {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+}
+
+.bakt-6 {
+  position: absolute;
+  bottom: 70px;
+  left: 350px;
+}
+
+@-webkit-keyframes baktbig {
+  from {
+    -webkit-transform: scale(1.2) rotate(0deg) translate(-10%, -5%);
+  }
+  50% {
+    -webkit-transform: scale(1.1) rotate(5deg) translate(-5%, -3%);
+  }
+  to {
+    -webkit-transform: scale(1) rotate(0deg) translate(0, 0);
+  }
+}
+
+.bakt-big {
+  position: absolute;
+  right: 260px;
+  bottom: -100px;
+
+  -webkit-animation: 'baktbig' 6s infinite alternate linear;
+}
+
+.pink-1 {
+  position: absolute;
+  bottom: 30px;
+  left: -50px;
+}
+
+.pink-2 {
+  position: absolute;
+  top: 183px;
+  right: 0;
+}
+
+@-webkit-keyframes bakt1 {
+  from {
+    -webkit-transform: translate(-10%, -20%);
+  }
+  to {
+    -webkit-transform: translate(30%, 60%);
+  }
+}
