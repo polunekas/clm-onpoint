@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import First from './First/First.jsx'
+import Second from './Second/Second.jsx'
 
 import logo from './../images/onpoint.png'
 import home from './../images/home.png'
@@ -88,6 +89,7 @@ const App = () => {
         }}
       >
         <First setSlide={setSlide} />
+        <Second currentSlide={currentSlide} />
       </div>
       <img src={logo} className="container__logo" alt="logo" />
       <button className="container__btn-home" onClick={setSlide(0)}>
