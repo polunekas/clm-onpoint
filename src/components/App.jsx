@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import First from './First/First.jsx'
 import Second from './Second/Second.jsx'
+import Third from './Third/Third.jsx'
 
 import logo from './../images/onpoint.png'
 import home from './../images/home.png'

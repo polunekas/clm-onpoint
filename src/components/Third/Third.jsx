@@ -3,29 +3,26 @@ import React, { useState } from 'react'
 import Keymessage from './Keymessage.jsx'
 import Advantages from './Advantages.jsx'
 
-import bottle from '../img/thirdslide/bottle.png'
-import bubble1 from '../img/thirdslide/bubble1.png'
-import bubble2 from '../img/thirdslide/bubble2.png'
-import bubble3 from '../img/thirdslide/bubble3.png'
-import bubble4 from '../img/thirdslide/bubble4.png'
-import bubble5 from '../img/thirdslide/bubble5.png'
-import bubble6 from '../img/thirdslide/bubble6.png'
-import bubble7 from '../img/thirdslide/bubble7.png'
-import bubble8 from '../img/thirdslide/bubble8.png'
+import './Third.css'
+
+import bubble1 from '../../images/thirdSlide/small-red-bubble.png'
+import bubble2 from '../../images/thirdSlide/big-red-bubble.png'
+import bubble3 from '../../images/thirdSlide/small-blue-bubble-1.png'
+import bubble4 from '../../images/thirdSlide/medium-blue-bubble-2.png'
+import bubble5 from '../../images/thirdSlide/medium-blue-bubble-1.png'
+import bubble6 from '../../images/thirdSlide/big-blue-bubble.png'
+import bubble7 from '../../images/thirdSlide/small-blue-bubble-2.png'
+import bubble8 from '../../images/thirdSlide/medium-red-bubble.png'
+import bottle from '../../images/thirdSlide/bottle.png'
 
 const Third = () => {
   const [pageOpen, setPageOpen] = useState('keymessage')
 
   return (
-    <div className="slide">
+    <div className="slider">
       <h2 className="brand-name">
         brand<strong>xy</strong>
       </h2>
-      {pageOpen === 'keymessage' ? (
-        <Keymessage setPageOpen={setPageOpen} />
-      ) : (
-        <Advantages setPageOpen={setPageOpen} />
-      )}
 
       <img src={bottle} className="bottle" alt="spray bottle" />
       <img src={bubble1} className="bubble-1" alt="bubble" />

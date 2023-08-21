@@ -4,6 +4,13 @@
   src: url('../../fonts/DINPro.woff') format('woff');
 }
 
+@font-face {
+  font-weight: normal;
+  font-family: "DINPro";
+  src: url('../../fonts/DINPro.woff') format('woff');
+}
+
+
 .next-slide {
   position: relative;
 
