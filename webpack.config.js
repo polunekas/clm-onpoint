@@ -14,7 +14,10 @@ module.exports = {
 	},
 	plugins: [
 		new HTMLWebpackPlugin({template:"./src/index.html"}),
-		new CleanWebpackPlugin()
+		new CleanWebpackPlugin(),
+		require('autoprefixer'),
+		require('postcss-nested'),
+		require('postcss-normalize'),
 	],
 	module: {
 		rules: [
