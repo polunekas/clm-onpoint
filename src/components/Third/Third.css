@@ -47,6 +47,7 @@
   position: absolute;
   top: 220px;
   left: 60px;
+  width: 45px;
 
   -webkit-animation: 'bubble1' 7s infinite alternate ease-in-out;
 
@@ -58,7 +59,7 @@
     -webkit-transform: scale(1);
   }
   to {
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
   }
 }
 
@@ -78,10 +79,11 @@
 
 .bubble-2 {
   position: absolute;
-  bottom: 330px;
-  left: 190px;
+  bottom: 400px;
+  left: 250px;
+  width: 120px;
 
-  -webkit-animation: 'bubble2' 4s infinite alternate ease-in;
+  -webkit-animation: 'bubble2' 3s infinite alternate ease-in;
 
   z-index: 1;
 }
@@ -97,10 +99,11 @@
 
 .bubble-3 {
   position: absolute;
-  top: 70px;
-  left: 200px;
+  top: 150px;
+  left: 240px;
+  width: 45px;
 
-  -webkit-animation: 'bubble3' 4s infinite alternate linear;
+  -webkit-animation: 'bubble3' 5s infinite alternate linear;
 
   z-index: 1;
 }
@@ -116,10 +119,10 @@
 
 .bubble-4 {
   position: absolute;
-  bottom: 130px;
-  left: 250px;
-
-  -webkit-animation: 'bubble4' 5s infinite alternate linear;
+  bottom: 280px;
+  left: 300px;
+  width: 60px;
+  -webkit-animation: 'bubble4' 7s infinite alternate linear;
 
   z-index: 1;
 }
@@ -129,16 +132,17 @@
     -webkit-transform: scale(1) translate(0%, 0%);
   }
   to {
-    -webkit-transform: scale(1.2) translate(-50%, 30%);
+    -webkit-transform: scale(1) translate(50%, 30%);
   }
 }
 
 .bubble-5 {
   position: absolute;
-  top: 180px;
+  top: 270px;
   left: 230px;
+  width: 70px;
 
-  -webkit-animation: 'bubble5' 6s infinite alternate linear;
+  -webkit-animation: 'bubble5' 2s infinite alternate linear;
 
   z-index: 3;
 }
@@ -154,10 +158,11 @@
 
 .bubble-6 {
   position: absolute;
-  bottom: -80px;
-  left: 200px;
+  bottom: 80px;
+  left: 250px;
+  width: 130px;
 
-  -webkit-animation: 'bubble6' 3s infinite alternate linear;
+  -webkit-animation: 'bubble6' 7s infinite alternate linear;
 
   z-index: 3;
 }
@@ -173,8 +178,9 @@
 
 .bubble-7 {
   position: absolute;
-  bottom: 300px;
+  bottom: 350px;
   left: 30px;
+  width: 45px;
 
   -webkit-animation: 'bubble7' 3s infinite alternate ease-in;
 
@@ -192,8 +198,9 @@
 
 .bubble-8 {
   position: absolute;
-  bottom: 150px;
+  bottom: 250px;
   left: 25px;
+  width: 60px;
 
   -webkit-animation: 'bubble8' 3s infinite alternate ease-in;
 
