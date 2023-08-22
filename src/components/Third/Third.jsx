@@ -21,8 +21,14 @@ const Third = () => {
   return (
     <div className="slider">
       <h2 className="brand-name">
-        brand<strong>xy</strong>
+        brend<strong>xy</strong>
       </h2>
+
+      {pageOpen === 'keymessage' ? (
+        <Keymessage setPageOpen={setPageOpen} />
+      ) : (
+        <Advantages setPageOpen={setPageOpen} />
+      )}
 
       <img src={bottle} className="bottle" alt="spray bottle" />
       <img src={bubble1} className="bubble-1" alt="bubble" />
