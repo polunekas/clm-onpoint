@@ -263,7 +263,7 @@
 .keymessage-box__btn-about {
   position: absolute;
   left: 330px;
-  bottom: -110px;
+  bottom: -90px;
   background: none;
   border: none;
 }
@@ -272,10 +272,10 @@
   position: absolute;
 
   left: -100px;
-  bottom: -105px;
+  bottom: -85px;
 
   width: 400px;
-  height: 290px;
+  height: 275px;
 
   background: #fff;
   box-shadow: 0 0 30px 2px #dad9da;
@@ -290,7 +290,7 @@
   position: absolute;
 
   left: 335px;
-  bottom: 15px;
+  bottom: 20px;
 
   width: 265px;
   height: 170px;
