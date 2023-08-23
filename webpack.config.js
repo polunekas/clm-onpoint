@@ -10,7 +10,7 @@ module.exports = {
 		filename: "[name].[hash].js",
 	},
 	devServer: {
-		port: 3001
+		port: 3000
 	},
 	plugins: [
 		new HTMLWebpackPlugin({template:"./src/index.html"}),
