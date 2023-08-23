@@ -4,7 +4,7 @@
 
 ## Result
 
-![gif](https://github.com/polunekas/clm-onpoint/assets/113113355/ca7324fd-9bb7-42c0-ba0b-dc185537a128)
+![GIF](https://github.com/polunekas/clm-onpoint/assets/113113355/b3d8d324-4c7d-458f-a830-fa421aa02074)
 
 ## Требования:
 
