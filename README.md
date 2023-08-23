@@ -2,7 +2,7 @@
 
 [DEPLOY Link](https://polunekas.github.io/clm-onpoint/)
 
-## GIF Result
+## Result
 
 ![gif](https://github.com/polunekas/clm-onpoint/assets/113113355/ca7324fd-9bb7-42c0-ba0b-dc185537a128)
 
