@@ -39,6 +39,7 @@ const Second = ({ currentSlide }) => {
             suspendisse faucibus interdum posuere.
           </p>
           <p className="second-slide__paragraph">
+            <br />
             Amet justo donec enim diam vulputate ut pharetra sit. Risus
             ultricies tristique nulla aliquet enim tortor at auctor. Velit sed
             ullamcorper morbi tincidunt ornare massa. Quis hendrerit dolor magna
