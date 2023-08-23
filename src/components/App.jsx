@@ -23,13 +23,13 @@ const App = () => {
     setCurrentX(slideIndex * -slideWidth)
   }
 
-  const functionSwipeStart = (e) => {
+  const handleSwipeStart = (e) => {
     const evt = e.clientX ? e : e.touches[0]
     setStartX(evt.clientX)
     setMouseDown(true)
   }
 
-  const functionSwipeMove = (e) => {
+  const handleSwipeMove = (e) => {
     if (!mouseDown) return
 
     const evt = e.clientX ? e : e.touches[0]
@@ -56,7 +56,7 @@ const App = () => {
     setCurrentX(x)
   }
 
-  const functionSwipeEnd = (e) => {
+  const handleSwipeEnd = (e) => {
     const finalX = e.clientX || e.changedTouches[0].clientX
 
     let nextSlide = currentSlide
@@ -78,12 +78,12 @@ const App = () => {
     <div className="container">
       <div
         className="container__slide"
-        onTouchMove={functionSwipeMove}
-        onTouchStart={functionSwipeStart}
-        onTouchEnd={functionSwipeEnd}
-        onMouseDown={functionSwipeStart}
-        onMouseMove={functionSwipeMove}
-        onMouseUp={functionSwipeEnd}
+        onTouchMove={handleSwipeMove}
+        onTouchStart={handleSwipeStart}
+        onTouchEnd={handleSwipeEnd}
+        onMouseDown={handleSwipeStart}
+        onMouseMove={handleSwipeMove}
+        onMouseUp={handleSwipeEnd}
         style={{
           transform: `translate(${currentX}px, 0)`,
           cursor: mouseDown ? 'grabbing' : 'grab',

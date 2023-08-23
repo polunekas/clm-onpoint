@@ -1,4 +1,4 @@
-.slide {
+.first-slide {
   position: relative;
 
   width: 1024px;
@@ -8,14 +8,14 @@
   flex-shrink: 0;
 }
 
-.slide__content {
+.first-slide__content {
   position: relative;
   
   text-align: left;
   padding: 155px 50px 0px 70px;
 }
 
-.title {
+.first-slide__title {
   font: 26px "DINPro", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -32,7 +32,7 @@ h1 {
   text-transform: uppercase;
 }
 
-.btn-next {
+.first-slide__btn-next {
   position: absolute;
   background: none;
   border: none;
@@ -40,17 +40,17 @@ h1 {
   bottom: 200px;
 }
 
-.bakt-1 {
+.first-slide__bakt-1 {
   position: absolute;
   bottom: 185px;
   left: 25px;
 
-  -webkit-animation: 'bakt1' 5s infinite alternate linear;
+  -webkit-animation: 'first-slide__bakt1' 5s infinite alternate linear;
 
   z-index: -1;
 }
 
-@-webkit-keyframes bakt2 {
+@-webkit-keyframes first-slide__bakt2 {
   from {
     -webkit-transform: scale(0.9) rotate(0deg) translate(0, 0);
   }
@@ -68,23 +68,23 @@ h1 {
   }
 }
 
-.bakt-2 {
+.first-slide__bakt-2 {
   position: absolute;
   top: 210px;
   right: 60px;
 
-  -webkit-animation: 'bakt2' 40s infinite normal linear;
+  -webkit-animation: 'first-slide__bakt2' 40s infinite normal linear;
 
   z-index: 2;
 }
 
-.bakt-3 {
+.first-slide__bakt-3 {
   position: absolute;
   top: 80px;
   left: -45px;
 }
 
-@-webkit-keyframes bakt4 {
+@-webkit-keyframes first-slide__bakt4 {
   from {
     -webkit-transform: translate(50%, 70%);
   }
@@ -93,27 +93,27 @@ h1 {
   }
 }
 
-.bakt-4 {
+.first-slide__bakt-4 {
   position: absolute;
   top: 70px;
   right: 250px;
 
-  -webkit-animation: 'bakt4' 5s infinite alternate linear;
+  -webkit-animation: 'first-slide__bakt4' 5s infinite alternate linear;
 }
 
-.bakt-5 {
+.first-slide__bakt-5 {
   position: absolute;
   top: 35px;
   right: 30px;
 }
 
-.bakt-6 {
+.first-slide__bakt-6 {
   position: absolute;
   bottom: 70px;
   left: 350px;
 }
 
-@-webkit-keyframes baktbig {
+@-webkit-keyframes first-slide__baktbig {
   from {
     -webkit-transform: scale(1.2) rotate(0deg) translate(-10%, -5%);
   }
@@ -125,27 +125,27 @@ h1 {
   }
 }
 
-.bakt-big {
+.first-slide__bakt-big {
   position: absolute;
   right: 260px;
   bottom: -100px;
 
-  -webkit-animation: 'baktbig' 6s infinite alternate linear;
+  -webkit-animation: 'first-slide__baktbig' 6s infinite alternate linear;
 }
 
-.pink-1 {
+.first-slide__pink-1 {
   position: absolute;
   bottom: 30px;
   left: -50px;
 }
 
-.pink-2 {
+.first-slide__pink-2 {
   position: absolute;
   top: 183px;
   right: 0;
 }
 
-@-webkit-keyframes bakt1 {
+@-webkit-keyframes first-slide__bakt1 {
   from {
     -webkit-transform: translate(-10%, -20%);
   }

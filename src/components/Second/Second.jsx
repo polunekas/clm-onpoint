@@ -15,15 +15,15 @@ const Second = ({ currentSlide }) => {
       : null
 
   return (
-    <div className="next-slide">
-      <div className="next-slide__content">
-        <h3 className="next-slide__title">
+    <div className="second-slide">
+      <div className="second-slide__content">
+        <h3 className="second-slide__title">
           текст
           <br />
           сообщения
         </h3>
         <ScrollableBlock>
-          <p className="paragraph">
+          <p className="second-slide__paragraph">
             <strong>Lorem ipsum dolor sit amet</strong>, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
             aliqua. Duis ut diam quam nulla. Mauris in aliquam sem fringilla ut
@@ -38,7 +38,7 @@ const Second = ({ currentSlide }) => {
             turpis egestas integer eget. Elementum pulvinar etiam non quam lacus
             suspendisse faucibus interdum posuere.
           </p>
-          <p className="paragraph">
+          <p className="second-slide__paragraph">
             Amet justo donec enim diam vulputate ut pharetra sit. Risus
             ultricies tristique nulla aliquet enim tortor at auctor. Velit sed
             ullamcorper morbi tincidunt ornare massa. Quis hendrerit dolor magna
@@ -48,11 +48,36 @@ const Second = ({ currentSlide }) => {
           </p>
         </ScrollableBlock>
       </div>
-      <img src={sperm1} style={imgStyle} className="sp-1" alt="sperm" />
-      <img src={sperm2} style={imgStyle} className="sp-2" alt="sperm" />
-      <img src={sperm3} style={imgStyle} className="sp-3" alt="sperm" />
-      <img src={sperm4} style={imgStyle} className="sp-4" alt="sperm" />
-      <img src={sperm2} style={imgStyle} className="sp-5" alt="sperm" />
+      <img
+        src={sperm1}
+        style={imgStyle}
+        className="second-slide__sp-1"
+        alt="sperm"
+      />
+      <img
+        src={sperm2}
+        style={imgStyle}
+        className="second-slide__sp-2"
+        alt="sperm"
+      />
+      <img
+        src={sperm3}
+        style={imgStyle}
+        className="second-slide__sp-3"
+        alt="sperm"
+      />
+      <img
+        src={sperm4}
+        style={imgStyle}
+        className="second-slide__sp-4"
+        alt="sperm"
+      />
+      <img
+        src={sperm2}
+        style={imgStyle}
+        className="second-slide__sp-5"
+        alt="sperm"
+      />
     </div>
   )
 }

@@ -19,8 +19,8 @@ const Third = () => {
   const [pageOpen, setPageOpen] = useState('keymessage')
 
   return (
-    <div className="slider">
-      <h2 className="brand-name">
+    <div className="third-slider">
+      <h2 className="third-slide__brand-name">
         brend<strong>xy</strong>
       </h2>
 
@@ -30,15 +30,15 @@ const Third = () => {
         <Advantages setPageOpen={setPageOpen} />
       )}
 
-      <img src={bottle} className="bottle" alt="spray bottle" />
-      <img src={bubble1} className="bubble-1" alt="bubble" />
-      <img src={bubble2} className="bubble-2" alt="bubble" />
-      <img src={bubble3} className="bubble-3" alt="bubble" />
-      <img src={bubble4} className="bubble-4" alt="bubble" />
-      <img src={bubble5} className="bubble-5" alt="bubble" />
-      <img src={bubble6} className="bubble-6" alt="bubble" />
-      <img src={bubble7} className="bubble-7" alt="bubble" />
-      <img src={bubble8} className="bubble-8" alt="bubble" />
+      <img src={bottle} className="third-slide__bottle" alt="spray bottle" />
+      <img src={bubble1} className="third-slide__bubble-1" alt="bubble" />
+      <img src={bubble2} className="third-slide__bubble-2" alt="bubble" />
+      <img src={bubble3} className="third-slide__bubble-3" alt="bubble" />
+      <img src={bubble4} className="third-slide__bubble-4" alt="bubble" />
+      <img src={bubble5} className="third-slide__bubble-5" alt="bubble" />
+      <img src={bubble6} className="third-slide__bubble-6" alt="bubble" />
+      <img src={bubble7} className="third-slide__bubble-7" alt="bubble" />
+      <img src={bubble8} className="third-slide__bubble-8" alt="bubble" />
     </div>
   )
 }

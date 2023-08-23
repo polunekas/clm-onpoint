@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect, useCallback } from 'react'
 import './ScrollableBlock.css'
 
-const CustomScrollbar = ({ children }) => {
+const ScrollableBlock = ({ children }) => {
   const containerRef = useRef(null)
   const contentRef = useRef(null)
   const thumbRef = useRef(null)
@@ -116,4 +116,4 @@ const CustomScrollbar = ({ children }) => {
   )
 }
 
-export default CustomScrollbar
+export default ScrollableBlock

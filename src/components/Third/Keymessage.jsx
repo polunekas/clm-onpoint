@@ -7,17 +7,25 @@ import btnabout from '../../images/thirdSlide/keymessage/btnabout.png'
 const Keymessage = ({ setPageOpen }) => (
   <div>
     <div className="keymessage-box">
-      <h3 className="keymessage-title">ключевое сообщение</h3>
-      <div className="columns-2">
-        <div className="column-1">
-          <img src={iconplate} className="plate" alt="plate icon" />
+      <h3 className="keymessage-box__title">ключевое сообщение</h3>
+      <div className="keymessage-box__columns-2">
+        <div className="keymessage-box__column-1">
+          <img
+            src={iconplate}
+            className="keymessage-box__plate"
+            alt="plate icon"
+          />
           <p>
             Ehicula ipsum a arcu cursus vitae. Eu non diam phasellus vestibulum
             lorem sed risus ultricies
           </p>
         </div>
-        <div className="column-2">
-          <img src={iconcalendar} className="calendar" alt="calendar icon" />
+        <div className="keymessage-box__column-2">
+          <img
+            src={iconcalendar}
+            className="keymessage-box__calendar"
+            alt="calendar icon"
+          />
           <p>
             A arcu
             <br />
@@ -25,7 +33,10 @@ const Keymessage = ({ setPageOpen }) => (
           </p>
         </div>
       </div>
-      <button className="btn-about" onClick={() => setPageOpen('advantages')}>
+      <button
+        className="keymessage-box__btn-about"
+        onClick={() => setPageOpen('advantages')}
+      >
         <img src={btnabout} alt="about" />
       </button>
     </div>

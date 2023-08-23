@@ -20,7 +20,9 @@ const pageContent = {
 const renderAdvList = (pageNum) =>
   pageContent[pageNum].map((el, i) => (
     <div key={i + pageNum * pageNum}>
-      <span className="item-number">{`0${i + pageNum * pageNum}`}</span>
+      <span className="advantages-box__item-number">{`0${
+        i + pageNum * pageNum
+      }`}</span>
       <p>{el}</p>
     </div>
   ))
@@ -31,12 +33,17 @@ const Advantages = ({ setPageOpen }) => {
     currentPage === 2 ? { transform: 'scale(-1, 1)' } : null
 
   return (
-    <div className="background-dark">
-      <div className="advantage-box">
-        <h3 className="title">преимущества</h3>
-        <section className="adv-list">{renderAdvList(currentPage)}</section>
-        <div className="button-box">
-          <button className="btn-left" onClick={() => setCurrentPage(1)}>
+    <div className="advantages-box__background-dark">
+      <div className="advantages-box">
+        <h3 className="advantages-box__title">преимущества</h3>
+        <section className="advantages-box__list">
+          {renderAdvList(currentPage)}
+        </section>
+        <div className="advantages-box__button">
+          <button
+            className="advantages-box__btn-left"
+            onClick={() => setCurrentPage(1)}
+          >
             <img src={arrowbtn} alt="left button" />
           </button>
           <img
@@ -44,11 +51,17 @@ const Advantages = ({ setPageOpen }) => {
             alt="page indicator"
             style={pageIndicatorStyle}
           />
-          <button className="btn-right" onClick={() => setCurrentPage(2)}>
+          <button
+            className="advantages-box__btn-right"
+            onClick={() => setCurrentPage(2)}
+          >
             <img src={arrowbtn} alt="right button" />
           </button>
         </div>
-        <button className="btn-close" onClick={() => setPageOpen('keymessage')}>
+        <button
+          className="advantages-box__btn-close"
+          onClick={() => setPageOpen('keymessage')}
+        >
           <img src={closebtn} alt="close" />
         </button>
       </div>
